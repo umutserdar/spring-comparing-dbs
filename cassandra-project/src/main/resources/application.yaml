@@ -1,0 +1,6 @@
+spring:
+  cassandra:
+    keyspace-name: demo
+    contact-points: cassandra
+    port: 9042
+    schema-action: create_if_not_exists
